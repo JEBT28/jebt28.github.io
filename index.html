@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Tobon</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <style>
-        body {
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: -webkit-fill-available;
-            color: #999DB7;
-        }
-        
-        body h1 {
-            margin: 0px;
-            text-align: center;
-            font-size: 45px;
-            font-family: 'Montserrat', sans-serif;
-        }
-        
-        body img {
-            width: 30em;
-            height: auto;
-        }
-        
-        @media (max-width: 600px) {
-            body h1 {
-                margin: 0px;
-                text-align: center;
-                font-size: 45px;
-                font-family: 'Montserrat', sans-serif;
-            }
-            body img {
-                width: 20em;
-                height: auto;
-                margin: 0px 20px;
-                align-content: center;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script  src="main.js"></script>
 </head>
-
-<body>
-    <div>
-        <h1>COMING SOON...</h1>
-        <img src="https://media.giphy.com/media/RiiaaQOom6wzdHyHhu/giphy.gif" alt="gif loading">
+<body id ="body">
+<header>
+        <a class="header_title" href="index.html">
+            <img  src="img/logo2_trnsp.png">
+            <p class="header_title-text" >Juan Tobon</p>
+        </a>
+    <nav class="header_pages" id="navbar">
+        <button class="header_pages-button" id="btnMenu" onclick="desplegarNavBar()">
+            <img src="img/menu.svg">
+        </button>
+       <ul>
+           <li><a href="index.html">Inicio</a></li>
+           <li><a>Acerca de mi</a></li>
+           <li><a>Proyectos personales</a></li>
+           <li><a>Contacto</a></li>
+       </ul>
+    </nav>
+</header>
+<main>
+    <div class="main-title">
+        <H1>Bienvenido, mi nombre es <b>Juan Baltierrez</b> y me desempeño como Web Developer.</H1>
     </div>
-</body>
+    <div class="main-ilustration">
+        <figure class="main-ilustration_photo">
+            <img src="" alt="">
+        </figure>
+    </div>
+</main>
+<div class="lateral-navbar" id="lateralnavbar">
+    <button class="lateral-navbar_button" id="btnBack" onclick="esconderNavBar()">
+        <img src="img/chevron.svg   ">
+    </button>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a>Acerca de mi</a></li>
+        <li><a>Proyectos personales</a></li>
+        <li><a>Contacto</a></li>
+    </ul>
+</div>
 
+<footer>
+    <label>Hecho con ❤️</label>
+</footer>
+</body>
 </html>
