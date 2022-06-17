@@ -1,9 +1,7 @@
 window.addEventListener("load", () => {
     if (document.readyState === "complete") {
       if (window.matchMedia) {
-        console.log(
-          window.matchMedia("(prefers-color-scheme: dark)").matches
-        );
+       
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
           document.querySelector("html").classList.add("dark");
         }
@@ -37,14 +35,12 @@ window.addEventListener("load", () => {
 
     const repos = await fetch("https://api.github.com/users/jebt28/repos").then(res => res.json()).catch(() => []);
 
-    console.log(repos);
-    console.log(repos.length);
+  
     if (repos.length !== 0) {
       repos.map(async (repo) => {
         const respLenguajes = await fetch(repo.languages_url);
 
         const lenguajesJSON = await respLenguajes.json();
-        console.log(Object.keys(lenguajesJSON));
 
         const lenguajes = Object.keys(lenguajesJSON);
 
