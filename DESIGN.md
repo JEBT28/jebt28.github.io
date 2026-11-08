@@ -29,6 +29,26 @@ typography:
     lineHeight: 0.86
     letterSpacing: "-0.04em"
     fontVariation: "'opsz' 96, 'wdth' 78"
+  display-short:
+    fontFamily: "'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif"
+    fontSize: "clamp(56px, min(max(26vw, 15vw + 24px), 17vh), 232px)"
+    fontWeight: 700
+    lineHeight: 0.84
+    letterSpacing: "-0.04em"
+    fontVariation: "'opsz' 96, 'wdth' 78"
+  headline-short:
+    fontFamily: "'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif"
+    fontSize: "clamp(44px, min(10vw, 13vh), 152px)"
+    fontWeight: 700
+    lineHeight: 0.86
+    letterSpacing: "-0.04em"
+    fontVariation: "'opsz' 96, 'wdth' 78"
+  lead-short:
+    fontFamily: "'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif"
+    fontSize: "clamp(17px, min(2.4vw, 3.4vh), 30px)"
+    fontWeight: 400
+    lineHeight: 1.3
+    fontVariation: "'opsz' 32"
   contact:
     fontFamily: "'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif"
     fontSize: "clamp(30px, 6.4vw, 96px)"
@@ -188,6 +208,7 @@ Mate y bicolor: un neutro casi negro y un neutro hueso que intercambian papeles 
 - **Body** (400, 16px, 1.55, máx. 60ch): texto de detalle de proyecto en `ink-soft`, con los lemas en negrita 600 en `ink`.
 - **Small** (13px): etiquetas de stack y la nota de confidencialidad (máx. 62ch).
 - **Label** (500, 12px, 0.16em, MAYÚSCULAS): enlaces de escena, tipo de proyecto, encabezados de fila del stack, canal de contacto y pie.
+- **Variantes cortas** (`display-short`, `headline-short`, `lead-short`): en pantallas de 760px de alto o menos, el nombre, los títulos y la tesis se escalan por `vh` para que la escena de inicio quepa completa, botones incluidos, sobre el pie.
 
 ### Named Rules
 **The One Giant Word Rule.** Cada escena tiene exactamente un elemento en display o headline; el resto baja al menos a la escala Title.

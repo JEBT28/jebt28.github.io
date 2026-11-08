@@ -1,6 +1,26 @@
 {
   "detector": {
     "ignoreRules": [],
-    "ignoreFiles": []
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-color",
+        "value": "#000",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-08T02:39:02.348Z",
+        "reason": "agent triage: #000 is only the alpha channel of the scene mask-image gradient (opaque/transparent), not a rendered color"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "grotesque\",ui-sans-serif,system-ui,sans-serif",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-08T02:39:02.358Z",
+        "reason": "agent triage: the .mark 'JT' inherits the body stack 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif, which is the DESIGN.md family; the detector truncates the quoted family name"
+      }
+    ]
   }
 }
