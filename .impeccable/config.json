@@ -1,17 +1,6 @@
 {
   "detector": {
     "ignoreRules": [],
-    "ignoreFiles": [],
-    "ignoreValues": [
-      {
-        "rule": "cramped-padding",
-        "value": "*",
-        "files": [
-          "index.html"
-        ],
-        "createdAt": "2026-11-08T02:00:08.480Z",
-        "reason": "agent triage: .work li rows are hairline-ruled list rows; text sits inside .work-head button with 16-26px vertical padding, so it is not flush against the border"
-      }
-    ]
+    "ignoreFiles": []
   }
 }

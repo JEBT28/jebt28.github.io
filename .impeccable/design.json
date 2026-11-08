@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T00:00:00Z",
+  "title": "Design System: Juan Tobón",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Negro Mate",
+        "canonical": "oklch(16.4% 0 0)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Blanco Hueso",
+        "canonical": "oklch(95.8% 0.004 91.4)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#252422",
+          "#40403D",
+          "#5E5D5B",
+          "#7E7D7A",
+          "#9F9E9B",
+          "#C5C4C1",
+          "#EFEEEB"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Tinta Suave",
+        "canonical": "rgba(242,241,238,.84)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#252422",
+          "#40403D",
+          "#5E5D5B",
+          "#7E7D7A",
+          "#9F9E9B",
+          "#C5C4C1",
+          "#EFEEEB"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Hilo",
+        "canonical": "rgba(242,241,238,.18)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#252422",
+          "#40403D",
+          "#5E5D5B",
+          "#7E7D7A",
+          "#9F9E9B",
+          "#C5C4C1",
+          "#EFEEEB"
+        ]
+      },
+      "crimson": {
+        "role": "primary",
+        "displayName": "Carmesí Bermellón",
+        "canonical": "oklch(58.8% 0.216 22.3)",
+        "tonalRamp": [
+          "#260000",
+          "#510003",
+          "#7F0013",
+          "#B10025",
+          "#DC3441",
+          "#F56D6D",
+          "#FFA19D",
+          "#FFD7D3"
+        ]
+      },
+      "teal": {
+        "role": "secondary",
+        "displayName": "Aqua Verde Azulado",
+        "canonical": "oklch(69.2% 0.118 185.5)",
+        "tonalRamp": [
+          "#00110E",
+          "#002E29",
+          "#004E46",
+          "#007066",
+          "#009286",
+          "#51B1A6",
+          "#8ED4CA",
+          "#CAFAF3"
+        ]
+      },
+      "ground-light": {
+        "role": "neutral",
+        "displayName": "Blanco Hueso (fondo claro)",
+        "canonical": "oklch(95.8% 0.004 91.4)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#252422",
+          "#40403D",
+          "#5E5D5B",
+          "#7E7D7A",
+          "#9F9E9B",
+          "#C5C4C1",
+          "#EFEEEB"
+        ]
+      },
+      "ink-light": {
+        "role": "neutral",
+        "displayName": "Negro Mate (tinta clara)",
+        "canonical": "oklch(16.4% 0 0)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "ink-soft-light": {
+        "role": "neutral",
+        "displayName": "Tinta Suave (claro)",
+        "canonical": "rgba(14,14,14,.72)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "hair-light": {
+        "role": "neutral",
+        "displayName": "Hilo (claro)",
+        "canonical": "rgba(14,14,14,.18)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "crimson-light": {
+        "role": "primary",
+        "displayName": "Carmesí Bermellón (claro)",
+        "canonical": "oklch(52.3% 0.193 21.7)",
+        "tonalRamp": [
+          "#240000",
+          "#4D0008",
+          "#7A081A",
+          "#AA1E2E",
+          "#D4424A",
+          "#ED7474",
+          "#FFA5A2",
+          "#FFDAD6"
+        ]
+      },
+      "teal-light": {
+        "role": "secondary",
+        "displayName": "Aqua Verde Azulado (claro)",
+        "canonical": "oklch(57.1% 0.098 185.8)",
+        "tonalRamp": [
+          "#00100E",
+          "#002C28",
+          "#004C45",
+          "#006D65",
+          "#288F85",
+          "#63AEA5",
+          "#98D1CA",
+          "#D1F8F2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "El nombre en la escena de inicio; una vez en el sitio."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Título de una palabra por escena."
+      },
+      "contact": {
+        "displayName": "Contacto",
+        "purpose": "Canales de contacto como texto gigante."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nombres de proyecto en la lista."
+      },
+      "list": {
+        "displayName": "Lista",
+        "purpose": "Tecnologías del stack en línea con separador de color."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Línea-tesis sobre el nombre, máx. 26ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Detalle de proyecto, máx. 60ch."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Etiquetas de stack y nota."
+      },
+      "button": {
+        "displayName": "Botón",
+        "purpose": "Texto de las píldoras."
+      },
+      "mark": {
+        "displayName": "Monograma",
+        "purpose": "JT en el cromo."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Etiquetas en mayúsculas espaciadas: navegación, tipo de proyecto, filas de stack, canal, pie."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hair-ring",
+        "value": "inset 0 0 0 1px var(--hair)",
+        "purpose": "Trazo de las etiquetas de stack; no es elevación."
+      },
+      {
+        "name": "line-ring",
+        "value": "inset 0 0 0 1.5px var(--hair)",
+        "purpose": "Trazo de la píldora de contorno; pasa a var(--ink) en hover. También el aro del cursor y del conmutador en var(--ink)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Curva única de todo el sitio."
+      },
+      {
+        "name": "color",
+        "value": ".3s",
+        "purpose": "Cambios de color de texto y aro."
+      },
+      {
+        "name": "transform",
+        "value": ".5s",
+        "purpose": "Hover de píldoras, flecha, punto de escena activa, salida de escena."
+      },
+      {
+        "name": "theme",
+        "value": ".6s",
+        "purpose": "Fondo/tinta entre temas, giro del conmutador, puntos de proyecto."
+      },
+      {
+        "name": "reveal",
+        "value": ".7s",
+        "purpose": "Despliegue del acordeón y subrayado de contacto."
+      },
+      {
+        "name": "scene-in",
+        "value": ".9s opacidad / 1s desplazamiento de 24px, retraso .12s",
+        "purpose": "Entrada de escena."
+      },
+      {
+        "name": "field-wipe",
+        "value": "wipe += dt*.9 hasta 1.3",
+        "purpose": "Disolución del shader al cambiar de escena o tema."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transiciones .01ms; campo congelado; sin anillo de cursor",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "max-width: 640px"
+      },
+      {
+        "name": "detail-2col",
+        "value": "min-width: 900px"
+      },
+      {
+        "name": "short",
+        "value": "max-height: 760px"
+      },
+      {
+        "name": "coarse",
+        "value": "(hover:none), (pointer:coarse)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Píldora sólida",
+      "kind": "button",
+      "refersTo": "button-pill-solid",
+      "description": "Acción principal; píldora en el neutro opuesto al fondo con flecha que avanza.",
+      "html": "<a class=\"ds-pill ds-pill-solid\" href=\"#\">Ver proyectos <svg class=\"ds-arrow\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2.5 8h11M9 3.5 13.5 8 9 12.5\"/></svg></a>",
+      "css": ".ds-pill{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font:600 15px 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;text-decoration:none;transition:transform .5s cubic-bezier(.16,1,.3,1),background-color .3s,color .3s,box-shadow .3s;} .ds-pill-solid{background:var(--pill,#F2F1EE);color:var(--pill-ink,#0E0E0E);} .ds-pill:hover{transform:translateY(-2px);} .ds-arrow{transition:transform .5s cubic-bezier(.16,1,.3,1);} .ds-pill:hover .ds-arrow{transform:translateX(4px);} .ds-pill:focus-visible{outline:2px solid var(--focus,#19B3A6);outline-offset:4px;}"
+    },
+    {
+      "name": "Píldora de contorno",
+      "kind": "button",
+      "refersTo": "button-pill-line",
+      "description": "Acción secundaria; aro interior de 1.5px que pasa de hilo a tinta.",
+      "html": "<a class=\"ds-pill-line\" href=\"#\">Contacto</a>",
+      "css": ".ds-pill-line{display:inline-flex;align-items:center;padding:14px 24px;border-radius:999px;font:600 15px 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;color:var(--ink,#F2F1EE);text-decoration:none;box-shadow:inset 0 0 0 1.5px var(--hair,rgba(242,241,238,.18));transition:transform .5s cubic-bezier(.16,1,.3,1),box-shadow .3s;} .ds-pill-line:hover{transform:translateY(-2px);box-shadow:inset 0 0 0 1.5px var(--ink,#F2F1EE);} .ds-pill-line:focus-visible{outline:2px solid var(--focus,#19B3A6);outline-offset:4px;}"
+    },
+    {
+      "name": "Navegación de escenas",
+      "kind": "nav",
+      "refersTo": "nav-scene-link",
+      "description": "Etiquetas espaciadas; la escena activa lleva un punto carmesí de 5px.",
+      "html": "<nav class=\"ds-scenes\"><a class=\"ds-scene-link\" href=\"#\" aria-current=\"page\">Inicio</a><a class=\"ds-scene-link\" href=\"#\">Proyectos</a><a class=\"ds-scene-link\" href=\"#\">Stack</a><a class=\"ds-scene-link\" href=\"#\">Contacto</a></nav>",
+      "css": ".ds-scenes{display:flex;gap:32px;} .ds-scene-link{position:relative;padding:6px 0;font:500 12px 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft,rgba(242,241,238,.84));text-decoration:none;transition:color .3s;} .ds-scene-link::after{content:'';position:absolute;left:50%;bottom:-2px;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:var(--crimson,#E0283C);transform:scale(0);transition:transform .5s cubic-bezier(.16,1,.3,1);} .ds-scene-link:hover,.ds-scene-link[aria-current=page]{color:var(--ink,#F2F1EE);} .ds-scene-link[aria-current=page]::after{transform:scale(1);} .ds-scene-link:focus-visible{outline:2px solid var(--focus,#19B3A6);outline-offset:4px;border-radius:999px;}"
+    },
+    {
+      "name": "Etiqueta de stack",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Píldora estática de 13px con aro de hilo, dentro del detalle de proyecto.",
+      "html": "<ul class=\"ds-tags\"><li>TypeScript</li><li>AWS Bedrock</li><li>MCP</li></ul>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0;} .ds-tags li{font:400 13px 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;padding:5px 12px;border-radius:999px;box-shadow:inset 0 0 0 1px var(--hair,rgba(242,241,238,.18));color:var(--ink,#F2F1EE);}"
+    },
+    {
+      "name": "Fila de proyecto",
+      "kind": "custom",
+      "refersTo": "work-dot",
+      "description": "Acordeón sin cajas: punto de color, nombre en Title y tipo en Label; la fila activa se desplaza y las demás se atenúan.",
+      "html": "<ul class=\"ds-works\"><li class=\"ds-work\" style=\"--c:#E0283C\"><button class=\"ds-work-head\"><span class=\"ds-work-dot\"></span><span class=\"ds-work-name\">Plataforma de agentes</span><span class=\"ds-work-kind\">IA aplicada</span></button></li><li class=\"ds-work\" style=\"--c:#19B3A6\"><button class=\"ds-work-head\"><span class=\"ds-work-dot\"></span><span class=\"ds-work-name\">Harness agéntico</span><span class=\"ds-work-kind\">Desarrollo con IA</span></button></li></ul>",
+      "css": ".ds-works{list-style:none;margin:0;padding:0;} .ds-work-head{width:100%;display:flex;align-items:baseline;gap:28px;padding:20px 0;background:none;border:0;color:var(--ink,#F2F1EE);text-align:left;cursor:pointer;} .ds-work-dot{flex:0 0 auto;align-self:center;width:12px;height:12px;border-radius:50%;background:var(--c);transform:scale(.6);transition:transform .6s cubic-bezier(.16,1,.3,1);} .ds-work-name{flex:1 1 auto;font:600 44px/1 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;letter-spacing:-.025em;font-variation-settings:'opsz' 72,'wdth' 90;transition:transform .6s cubic-bezier(.16,1,.3,1),opacity .4s;} .ds-work-kind{font:400 12px 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft,rgba(242,241,238,.84));} .ds-works:hover .ds-work-name{opacity:.38;} .ds-works .ds-work:hover .ds-work-name,.ds-work-head:focus-visible .ds-work-name{opacity:1;transform:translateX(10px);} .ds-work:hover .ds-work-dot,.ds-work-head:focus-visible .ds-work-dot{transform:scale(1);} .ds-work-head:focus-visible{outline:2px solid var(--focus,#19B3A6);outline-offset:4px;border-radius:999px;}"
+    },
+    {
+      "name": "Enlace de contacto",
+      "kind": "custom",
+      "refersTo": "contact",
+      "description": "Canal en Label sobre el valor en texto gigante; subrayado de 2px que crece y toma el acento en hover.",
+      "html": "<a class=\"ds-reach\" href=\"#\"><small>Correo</small><span>me@juantobon.dev</span></a>",
+      "css": ".ds-reach{display:flex;flex-direction:column;gap:6px;width:max-content;max-width:100%;font:600 64px/1.05 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;letter-spacing:-.015em;font-variation-settings:'opsz' 96,'wdth' 82;color:var(--ink,#F2F1EE);text-decoration:none;transition:color .3s;overflow-wrap:anywhere;} .ds-reach small{font:500 12px/1.2 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft,rgba(242,241,238,.84));} .ds-reach span{background:linear-gradient(currentColor,currentColor) 0 100%/0 2px no-repeat;transition:background-size .7s cubic-bezier(.16,1,.3,1);} .ds-reach:hover,.ds-reach:focus-visible{color:var(--crimson,#E0283C);outline:none;} .ds-reach:hover span,.ds-reach:focus-visible span{background-size:100% 2px;}"
+    },
+    {
+      "name": "Conmutador de tema",
+      "kind": "button",
+      "refersTo": "theme-toggle",
+      "description": "Botón circular de 34px con disco mitad tinta que gira 180° entre temas.",
+      "html": "<button class=\"ds-theme\" aria-label=\"Cambiar a tema claro\"><span></span></button>",
+      "css": ".ds-theme{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:none;border:0;padding:0;cursor:pointer;} .ds-theme span{width:14px;height:14px;border-radius:50%;background:linear-gradient(90deg,var(--ink,#F2F1EE) 50%,transparent 50%);box-shadow:inset 0 0 0 1.5px var(--ink,#F2F1EE);transition:transform .6s cubic-bezier(.16,1,.3,1);} .ds-theme:hover span{transform:rotate(180deg);} .ds-theme:focus-visible{outline:2px solid var(--focus,#19B3A6);outline-offset:4px;}"
+    },
+    {
+      "name": "Display del nombre",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "La palabra enorme de la escena de inicio, condensada y en dos líneas con sangría.",
+      "html": "<h1 class=\"ds-name\"><span>Juan</span><span>Tobón</span></h1>",
+      "css": ".ds-name{margin:0;font:700 120px/.84 'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;letter-spacing:-.04em;font-variation-settings:'opsz' 96,'wdth' 78;color:var(--ink,#F2F1EE);} .ds-name span{display:block;} .ds-name span:last-child{padding-left:.42em;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "El Campo Vivo",
+    "overview": "Un solo fondo mate, negro o blanco, sobre el que respira un campo de color generado en WebGL: manchas orgánicas de carmesí y aqua que se mezclan con ruido fbm, un grano fino encima y nada más. Todo lo demás es tipografía. La interfaz no tiene superficies propias; flota sobre el campo como texto delgado, palabras enormes y unas pocas formas redondas. La obra (los proyectos) lleva la página; el campo es su clima, y cambia de color según la escena o el proyecto activo.\n\nLa densidad es baja y escénica: una escena por pantalla, una palabra enorme por escena, contenido anclado abajo a la izquierda y el cromo (monograma, enlaces de escena, pie) reducido a etiquetas pequeñas espaciadas en los bordes. El movimiento es parte del material: el cursor deforma el campo, cambiar de escena o de tema dispara una disolución del shader, y todas las transiciones usan un ease-out exponencial largo. Con reduced-motion el campo se congela y el cursor personalizado desaparece; el contenido es visible siempre, sin loader.\n\nRechazos confirmados en el contrato de dirección y en el build: el portafolio de tarjetas y retícula, y el estilo blueprint de la versión anterior.",
+    "keyCharacteristics": [
+      "Fondo mate plano (sin degradados de interfaz) con un campo de shader carmesí/aqua a pantalla completa y grano al 7%.",
+      "Una sola familia, Bricolage Grotesque variable, estirada entre display condensado (wdth 78) y texto (opsz 14).",
+      "Cero cajas: ningún contenedor con fondo, borde o sombra; las únicas formas son círculos y píldoras.",
+      "El color de acento vive en el campo y en puntos pequeños, no en superficies.",
+      "Movimiento con ease-out exponencial `cubic-bezier(.16,1,.3,1)`, y siempre respetando reduced-motion."
+    ],
+    "rules": [
+      {
+        "name": "The Swap Rule",
+        "body": "Los dos temas son el mismo sistema con los neutros intercambiados (`#0E0E0E` ↔ `#F2F1EE`) y los acentos oscurecidos en claro para conservar contraste. Todo color se escribe contra los custom properties (`--ground`, `--ink`, `--crimson`, `--teal`…), nunca como literal, porque el shader lee esos mismos tokens al cambiar de tema.",
+        "section": "colors"
+      },
+      {
+        "name": "The Field Carries Color Rule",
+        "body": "El color saturado vive en el campo y en marcas pequeñas (puntos de 5–12px, separadores, hover de texto grande). Ninguna superficie de interfaz se rellena de carmesí o aqua.",
+        "section": "colors"
+      },
+      {
+        "name": "The Large-Only Accent Text Rule",
+        "body": "Los acentos como color de texto solo aparecen en texto grande (≥30px, peso 600): el carmesí oscuro da 4.17:1 sobre el negro mate y el aqua claro 3.74:1 sobre el hueso, válidos para texto grande, no para cuerpo.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Giant Word Rule",
+        "body": "Cada escena tiene exactamente un elemento en display o headline; el resto baja al menos a la escala Title.",
+        "section": "typography"
+      },
+      {
+        "name": "The Axes Not Families Rule",
+        "body": "La jerarquía se construye con los ejes `opsz` y `wdth` de Bricolage. No se añade una segunda familia, ni monoespaciada ni serif.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Over Field Rule",
+        "body": "Ninguna capa de interfaz tiene fondo propio salvo la píldora sólida. La legibilidad sobre el campo se resuelve con tinta de alto contraste y con la intensidad acotada del shader (mezcla máx. 62% en oscuro, 50% en claro), no con paneles o velos.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Round Only Rule",
+        "body": "Las cajas, tarjetas y paneles con esquinas no existen. Si algo necesita contenedor visible, es una píldora; si es una marca, es un círculo.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** escribir todo color contra los custom properties del tema (`--ground`, `--ink`, `--ink-soft`, `--hair`, `--crimson`, `--teal`, `--focus`) para que el shader y ambos temas los sigan.",
+      "**Do** usar `cubic-bezier(.16,1,.3,1)` para todo movimiento: 0.3s en color, 0.5s en transformaciones, 0.6–0.7s en tema y despliegues, 0.9–1s en la entrada de escena.",
+      "**Do** dar a cada escena nueva una sola palabra en Headline anclada abajo a la izquierda, y dejar que el campo cambie de `tone` para marcarla.",
+      "**Do** usar píldoras (999px) para acciones y círculos (50%) para marcas, con trazos de aro interior de 1–1.5px en `hair` o `ink`.",
+      "**Do** mantener el contenido visible por defecto y congelar el campo con `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "**Don't** construir tarjetas, paneles, retículas de cajas ni contenedores con fondo, borde rectangular o sombra proyectada.",
+      "**Don't** volver al lenguaje blueprint de la versión anterior.",
+      "**Don't** rellenar superficies de interfaz con carmesí o aqua, ni usar los acentos como color de texto por debajo de 30px.",
+      "**Don't** añadir una segunda familia tipográfica; la jerarquía sale de los ejes de Bricolage Grotesque.",
+      "**Don't** poner velos o paneles detrás del texto para leerlo sobre el campo; se ajusta la intensidad del shader."
+    ]
+  }
+}

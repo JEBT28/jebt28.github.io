@@ -19,6 +19,6 @@ STORY: el visitante ve quién es Juan y a qué nivel trabaja, entra a Proyectos,
 
 FIRST VIEWPORT: shader a pantalla completa. "Juan Tobón" enorme abajo a la izquierda, con la línea-tesis encima y el rol en etiqueta. Enlaces de escena delgados arriba a la derecha y JT arriba a la izquierda. La acción principal, "Ver proyectos →", va como píldora bajo el nombre.
 
-FORM: Portal de shader (challenger webgl-shader-portal). Interacción firma: el cursor deforma el campo; cambiar de escena dispara una disolución del shader y el color se desplaza según la escena o el proyecto activo. Movimiento: ease-out exponencial; el contenido es visible por defecto (sin loader que bloquee); con reduced-motion el campo se congela y se desactiva el cursor. seed:f1b132ee0cebe791
+FORM: Portal de shader (challenger webgl-shader-portal). Interacción firma: el cursor deforma el campo; cambiar de escena dispara una disolución del shader y el color se desplaza según la escena o el proyecto activo. Un anillo de cursor en mezcla difference sigue al puntero (se agranda sobre enlaces) como parte del cursor personalizado del mundo. Movimiento: ease-out exponencial; el contenido es visible por defecto (sin loader que bloquee); con reduced-motion el campo se congela y se desactiva el cursor. seed:f1b132ee0cebe791
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
